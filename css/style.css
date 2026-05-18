@@ -1,0 +1,725 @@
+body{
+    margin: 0;
+}
+.secion1{
+    background-color: #FFF085;
+    width: 100%;
+    height: fit-content;
+    border: solid 2px;
+}
+.navebar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+}
+.container{
+    width: 80%;
+     margin: auto;
+}
+.nav-content{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: solid 2px;
+    padding: 0 10px;
+   
+}
+
+ .links ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links ul a{
+    text-decoration: none;
+    color: black;
+}
+ul a:hover{
+    color: #FF7A50;
+}
+.ux-review span{
+color: #FF6900;
+}
+
+.links ul img {
+    width: 15px;
+}
+.subscribe button{
+    color: black;
+    background-color: #FFD15B;
+     padding: 7px; 
+    border-radius: 25px;
+    font-size: larger;
+}
+.subscribe button:hover{
+    transform: translate(2px,2px);
+}
+.home{
+    margin-top: 10%;
+    display: flex;
+}
+.home-page{
+    display: flex;
+    width: 100%;
+}
+.trending{
+    width: 50%;
+    
+}
+.trending span{
+    font-size: small;
+    padding: 5px;
+background-color: black;
+color: white;
+text-shadow: 2px 2px 5px black;
+}
+.trending .brutal{
+    font-size: 50px;
+    text-shadow: 2px 2px 0px black;
+}
+.trending .THOUGHTS{
+    font-size: 50px;
+    text-shadow: 2px 2px 0px black;
+    color: #E7000B;
+}
+.trending .BOLD{
+    font-size: 50px;
+    text-shadow: 2px 2px 0px black;
+    color: #155DFC;
+}
+.discription{
+    width: 80%;
+    border: 2px solid;
+    box-shadow: 2px 2px 3px black;
+    background-color: white;
+    padding: 8px;
+    margin-bottom: 30px;
+}
+.buttons .start{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 4px 1px black;
+    font-size: x-large;
+    padding: 10px;
+    border: none;
+    margin-right: 5px;
+    
+}
+.start:hover{
+    transform: scale(0.9);
+}
+.buttons .intro{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 4px 1px black;
+    font-size: x-large;
+    padding: 5px;
+    border: none;
+}
+.intro:hover{
+    transform: scale(0.9);
+}
+.home-img{
+    width: 50%;
+}
+.featured{
+    position: relative;
+}
+.featured img{
+    width: 90%;
+    height: 70%;
+    border: solid 5px;
+    box-shadow: 7px 7px 7px black;
+    margin-top: 20px;
+    
+}
+.featured img:hover{
+    transform: translate(0px,5px);
+}
+
+.FEATURED span{
+     background-color: #FB2C36;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    position: absolute;
+    bottom: 390px;
+    left: 450px;
+    box-shadow: 4px 4px 2px black;  
+}
+.articles{
+    display: flex;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+.fresh-content{
+     width: 50%;
+}
+.content-articles{
+    width: 50%;
+padding-top: 40PX;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.content-articles h2{
+font-size: xx-large;
+}
+.content-articles span{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.tech{
+    width: 100%;
+    border: 2px solid;
+    padding: 20px;
+    box-shadow: 6px 6px 2px black;
+   
+}
+.tech:hover{
+    transform:translate(0px,2px);
+    
+}
+.tech:hover h3{
+   color: #E7000B;
+    
+}
+.tech img{
+    width: 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 100px;
+    border: solid 2px;
+  
+}
+.new{
+    
+    display: flex;
+    position: relative;
+}
+
+
+.new span{
+    background-color: #FB2C36;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 90px;
+    padding: 5px;
+     border: solid 2px black;
+    
+}
+.new h5{
+    color: black;
+    background-color: #FFDF20;
+    width: fit-content;
+    padding: 5px;
+    box-shadow: 4px 4px 0px black;
+}
+.new p{
+    width: 90%;
+}
+.date{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+
+}
+.date span{
+    color: red;
+}
+.design{
+    margin-top: 20px;
+     width: 100%;
+    border: 2px solid;
+    padding: 20px;
+    box-shadow: 6px 6px 2px black;
+
+}
+.design:hover{
+    transform:translate(0px,2px);
+    
+}
+.design:hover h3{
+   color: #155DFC;
+    
+}
+.hot{
+     display: flex;
+    position: relative;
+}
+.hot img{
+     width: 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 100px;
+    border: solid 2px;
+}
+.hot span{
+    background-color: #2B7FFF;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    padding: 5px;
+     border: solid 2px black;
+    
+}
+.hot h5{
+     color: black;
+    background-color:#7BF1A8;
+    width: fit-content;
+    padding: 5px;
+     box-shadow: 4px 4px 0px black;
+}
+.CULTURE{
+      margin-top: 20px;
+     width: 100%;
+    border: 2px solid;
+    padding: 20px;
+    box-shadow: 6px 6px 2px black;
+}
+.CULTURE:hover{
+    transform:translate(0px,2px);
+    
+}
+.CULTURE:hover h3{
+   color:#9810FA;
+    
+}
+
+.VIRAL{
+      display: flex;
+    position: relative;
+}
+.VIRAL img{
+      width: 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 100px;
+    border: solid 2px;
+}
+.VIRAL span{
+    background-color: #AD46FF;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    padding: 5px;
+    width: 50px;
+    border: solid 2px black;
+}
+.VIRAL h5{
+      color: black;
+    background-color:#FDA5D5;
+    width: fit-content;
+    padding: 5px;
+     box-shadow: 4px 4px 0px black;
+}
+.sticy{
+    
+    margin-left: 100px; 
+}
+.trending-now{
+    width: 300px;
+    border: solid black 4px;
+    box-shadow: 3px 3px 0px black;
+    padding: 20px;
+    position: sticky; 
+    top: 80px;  
+
+     
+
+}
+.death{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    align-items: self-start;
+}
+.death h2{
+    color: #FB2C36;
+}
+.death h3:hover{
+    color: #E7000B;
+}
+.chaos{
+      display: flex;
+    align-items: center;
+    gap: 5px;
+    align-items: self-start;
+}
+.chaos h2{
+    color: #2B7FFF;
+}
+.chaos h3:hover{
+    color: #155DFC;
+}
+.digital{
+   display: flex;
+    align-items: center;
+    gap: 5px;
+     align-items: self-start;
+}
+.digital h2{
+    color: #AD46FF;
+}
+.digital h3:hover{
+    color: #9810FA;
+}
+.category{
+    margin-top:50px;
+    padding: 30px;
+    border: solid black 4px;
+    box-shadow: 3px 3px 0px black;
+
+}
+.category h2{
+    text-align: center;
+}
+.tech24 h3{
+background-color: #FEF9C2;
+border: solid 2px;
+padding: 10px;
+}
+.tech24 h3:hover{
+background-color: #FFDF20;
+ transform: scale(1.1); 
+box-shadow: 4px 4px black;
+}
+.design18 h3{
+    background-color: #DBFCE7;
+    border: solid 2px;
+padding: 10px;
+}
+.design18 h3:hover{
+    background-color: #7BF1A8;
+     transform: scale(1.1); 
+box-shadow: 4px 4px black;
+}
+.culture15 h3{
+    background-color: #FCE7F3;
+    border: solid 2px;
+padding: 10px;
+}
+.culture15 h3:hover{
+    background-color: #FDA5D5;
+        transform: scale(1.1); 
+box-shadow: 4px 4px black;
+
+}
+.option12 h3{
+    background-color: #DBEAFE;
+    border: solid 2px;
+padding: 10px;
+}
+.option12 h3:hover{
+    background-color: #8EC5FF;
+            transform: scale(1.1); 
+box-shadow: 4px 4px black;
+
+}
+.tutorials9 h3{
+    background-color: #F3E8FF;
+        border: solid 2px;
+padding: 10px;
+}
+.tutorials9 h3:hover{
+    background-color: #DAB2FF;
+    box-shadow: 4px 4px black;
+    transform: scale(1.1);
+}
+.articles-button button{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px  black;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 20px;
+    font-size: x-large;
+
+}
+.articles-button button:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 0px 0px;
+}
+.secion3{
+    background-color: #FFD230;
+    border: solid 3px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.header3{
+    text-align: center;
+}
+.header3 h2{
+    font-size: xx-large;
+}
+.header3 p{
+    color: #525252;
+    position: relative;
+}
+.header3 p::before{
+    content: "";
+    display: inline-block;
+    width: 120px;
+    height: 7px;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    right: 45%;
+}
+.authors{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.alex{
+    position: relative;
+    text-align: center;
+    width: 25%;
+    border: solid 3px;
+    box-shadow: 6px 6px black;
+   padding: 20px;
+    background-color: #FEF9C2;
+}
+.alex:hover{
+    transform: translate(0px,2px);
+}
+.alex:hover h2{
+    color: red;
+}
+.ava-alex img{
+    width: 30%;
+    border: solid 3px;
+}
+.alex-logo
+{
+    margin-top: 10%;
+    display: flex;
+    align-content: center;
+   
+}
+.alex span{
+    background-color: #FB2C36;
+    color: white;
+    padding: 2px;
+    border: solid 2px black;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.facebook img{
+    width: 20%;
+    background-color: black;
+    padding: 7px;
+}
+.facebook img:hover{
+    box-shadow: 3px 3px black;
+    background-color: #155DFC;
+    transform: scale(1.1);
+}
+.instgram img{
+    width: 20%;
+    background-color: black;
+    padding: 7px;
+}
+.instgram img:hover{
+     transform: scale(1.1);
+      box-shadow: 3px 3px black;
+      background-color: #E60076;
+
+}
+.twitter img{
+    width: 20%;
+    background-color: black;
+    padding: 7px;
+}
+.twitter img:hover{
+     transform: scale(1.1);
+      box-shadow: 3px 3px black;
+      background-color: #1DA1F2;
+}
+.arnold{
+    position: relative;
+    text-align: center;
+    width: 25%;
+    border: solid 3px;
+    box-shadow: 6px 6px black;
+   padding: 20px;
+    background-color:#DBFCE7;
+}
+.arnold:hover{
+    transform: translate(0px,2px);
+}
+.arnold:hover h2{
+    color: #155DFC;
+}
+.ava-arnold img{
+    width: 30%;
+    border: solid 3px;
+}
+.arnold-logo
+{
+    margin-top: 10%;
+    display: flex;
+    align-content: center;
+   
+}
+.arnold span{
+    background-color: #2B7FFF;
+    color: white;
+    padding: 2px;
+    border: solid 2px black;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.mike{
+    position: relative;
+    text-align: center;
+    width: 25%;
+    border: solid 3px;
+    box-shadow: 6px 6px black;
+   padding: 20px;
+    background-color:#FCE7F3;
+}
+.mike:hover{
+    transform: translate(0px,2px);
+}
+.mike:hover h2{
+    color: #9810FA;
+}
+.ava-mike img{
+    width: 30%;
+    border: solid 3px;
+}
+.mike-logo
+{
+    margin-top: 10%;
+    display: flex;
+    align-content: center;
+   
+}
+.mike span{
+    background-color: #AD46FF;
+    color: white;
+    padding: 2px;
+    border: solid 2px black;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.secion4{
+    padding-top: 30px;
+}
+.rebellion{
+    
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+}
+.left-side{
+    width: 50%;
+    padding: 20px 10px;
+}
+.left-side h2{
+    width: 70%;
+}
+.text-box{
+    width: 90%;
+    box-shadow: 4px 4px black ;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 40px 0px;
+}
+.box-button .join{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    box-shadow: 5PX 5PX black;
+    margin-top: 30px;
+}
+.box-button .join:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 0px;
+}
+.right-side{
+   
+    width: 50%;
+   
+}
+.rebels-saying{
+    width: 100%;
+    border: solid 4px black;
+    box-shadow: 4px 4px black;
+   
+  
+    
+}
+.mark-t{
+    border: solid 3px black;
+    background-color: #FEF2F2;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-imge img{
+    width: 10%;
+}
+.ALEX-M{
+      border: solid 3px black;
+    background-color:#FAF5FF;
+    width: 80%;
+    margin: 20px auto;
+}
+.James-K{
+      border: solid 3px black;
+    background-color:#FAF5FF;
+    width: 80%;
+    margin: 20px auto;
+}
+.secion5{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+.ux-review{
+    width: 25%;
+}
+.categories{
+    width: 25%;
+}
+.categories p:hover{
+    color: #FFDF20;
+}
+.newsletter{
+    width: 25%;
+}
+.newsletter input{
+    background-color: black;
+    padding: 5px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.sub{
+    width: 58%;
+    padding: 5px;
+    background-color: #FFDF20;
+}
+.sub:hover{
+    transform: scale(0.9);
+    background-color: #FDC700;
+}

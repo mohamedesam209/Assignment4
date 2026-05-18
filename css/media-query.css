@@ -1,0 +1,70 @@
+@media screen and (min-width:500px) and (max-width:800px) 
+{
+    .home-page{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .trending{
+        width: 100%;
+        text-align: center;
+    }
+    h2.brutal, h2.THOUGHTS , h2.BOLD{
+        font-size: 32PX;
+    }
+    .discription{
+        width: 100%;
+        margin: 10PX 0;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 15px 0;
+    }
+    .home-img{
+        width: 100%;
+        margin-top: 15px;
+        position: relative;
+    }
+    .home-img .featured{
+        width: 100%;
+    }
+    .home-img .featured img{
+        width: 100%;
+        height: auto;
+    }
+    .featured{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:800px)
+{
+    .nav-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .links{
+        display: none;
+        width: 100%;
+
+    }
+    .links ul{
+        flex-direction: column;
+        list-style: none;
+        padding: 10px 0;
+    }
+    .links ul li{
+        padding: 8px 15px;
+        border-bottom: 1px solid #eee
+    }
+    .links ul li img{
+        display: none;
+    }
+}
+
+
+    
+
+    
