@@ -63,6 +63,125 @@
         display: none;
     }
 }
+@media screen and (min-width:500px) and (max-width:800px)
+{
+ .fresh-content{
+     width: 100%;
+}
+.articles{
+    display: block;
+    text-align: center;
+}
+.tech{
+    width: 100%;
+}
+.new img{
+    width: 50%;
+}
+.sticy
+{
+    width: 100%;
+    margin: 30px auto;
+}
+.authors{
+    display: block;
+}
+.authors .alex{
+    width: 100%;
+     margin: 50px auto;
+}
+.authors .arnold{
+    width: 100%;
+     margin: 50px auto;
+}
+.authors .mike{
+    width: 100%;
+     margin: 50px auto;
+}
+.rebellion{
+    display: block;
+}
+.left-side{
+    width: 100%;
+}
+.right-side{
+    width: 100%;
+}
+.footer{
+    display: block;
+}
+.ux-review{
+    width: 100%;
+}
+.new span{
+    background-color: #FB2C36;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    padding: 2px;
+     border: solid 2px black;
+     font-size: small;
+    
+}
+.tech img{
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 70px;
+    border: solid 2px;
+  
+}
+.hot span{
+    background-color: #FB2C36;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    padding: 2px;
+     border: solid 2px black;
+     font-size: small;
+    
+}
+.design img{
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 70px;
+    border: solid 2px;
+  
+}
+.VIRAL span{
+    background-color: #FB2C36;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    padding: 2px;
+     border: solid 2px black;
+     font-size: small;
+     width: 35px;
+    
+}
+.CULTURE img{
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 70px;
+    border: solid 2px;
+  
+}
+.newsletter .sub{
+    width: 70%;
+}
+.content-articles{
+display: block;
+}
+.stikky{
+    margin-top: 50px;
+}
+
+}
 
 
     
